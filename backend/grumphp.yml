@@ -1,0 +1,11 @@
+grumphp:
+    tasks: {
+        phpcsfixer2: {
+            rules: [
+              - '@@PSR12'
+              - -line_ending
+              - array_syntax
+            ]
+        }
+        phpunit: {}
+    }
